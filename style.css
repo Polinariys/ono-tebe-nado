@@ -59,7 +59,7 @@
 }
 
 .cover {
-  background-image: url("../style/img/lotus-flower.svg");
+  background-image: url("../images/cover.jpg");
   color: #fff;
   width: 1440px;
   height: 763.939px;
@@ -171,21 +171,21 @@
 }
 
 .card_type_film {
-  background-image: url("../style/img/photo\ \(2\).png");
+  background-image: url("../images/card-lot-01.jpg");
   width: 430px;
   height: 450px;
   flex-shrink: 0;
 }
 
 .card_type_book {
-  background-image: url("../style/img/photo.png");
+  background-image: url("../images/card-lot-02.jpg");
   width: 430px;
   height: 450px;
   flex-shrink: 0;
 }
 
 .card_type_picture {
-  background-image: url("../style/img/photo\ \(1\).png");
+  background-image: url("../images/card-lot-03.jpg");
   width: 430px;
   height: 450px;
   flex-shrink: 0;
@@ -322,3 +322,6 @@
   gap: 48px;
   list-style: none;
 }
+
+
+
