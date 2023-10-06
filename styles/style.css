@@ -237,26 +237,25 @@ body {
   gap: 25px;
   padding: 0 50px 182px 50px;
 }
-
 .about__logo {
- display: inline-flex;
   width: 430px;
   height: 240px;
   padding: 0px 95px;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  
+  display: inline-flex;
 }
 
 .about__title {
   font-size: 40px;
-  font-style: normal;
+
   font-weight: 700;
-  line-height: normal;
+
   text-transform: uppercase;
   margin-top: 100px;
   display: inline-block;
+  vertical-align: top;
 }
 
 .about__text {
@@ -265,9 +264,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  margin-top: 100px;
+
   line-height: normal;
   margin-left: 455px;
+  margin-bottom: 180px;
 }
 
 
