@@ -68,33 +68,36 @@ body {
   text-underline-position: under;
   justify-content: space-between;
 }
-
 .cover {
   background-image: url("../images/cover.jpg");
   color: #fff;
-  /* width: 1440px;*/
+  position: relative;
+  z-index: 1;
 
-  
-  flex-shrink: 0;
-  /* background-color: #000;
-  opacity: 0.6;*/
-  width: 100%;
-  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 
-  /* display: flex;
+  /*width: 1440px;
+
+flex-shrink: 0;
+ background-color: #000;
+  opacity: 0.6;
+width: 100%;
+height: 100%;
+position: relative;
+background-color: rgba(0, 0, 0, 0.5);
+ display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;*/
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
+  position: relative;
   left: 0;
+  top: 0;
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
 }
 
 .cover__title {
@@ -108,7 +111,7 @@ body {
   letter-spacing: 30px;
   text-transform: uppercase;
 
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5);*/
 }
 
 .cover__description {
@@ -116,7 +119,7 @@ body {
   display: flex;
   justify-content: end;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  /*background-color: rgba(0, 0, 0, 0.5);*/
 }
 
 .cover__description-text {
@@ -129,6 +132,7 @@ body {
   word-spacing: 18px;
   margin-bottom: 50px;
 }
+
 
 .aligned-text_left {
   text-align: left;
