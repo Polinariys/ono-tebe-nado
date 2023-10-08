@@ -142,13 +142,9 @@
 
 .aligned-text_right {
   display: block;
-}
-
-
-
-.aligned-text_right {
   text-align: right;
 }
+
 
 .lots {
   padding: 180px 50px;
