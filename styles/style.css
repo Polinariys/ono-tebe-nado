@@ -4,12 +4,11 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 49px 96px 51px;
+  padding: 92px 51px 96px 51px;
 }
 
 .header__menu {
   flex: 0 0 auto;
-  width: 33.3%;
 }
 
 .header__link {
@@ -149,9 +148,8 @@
 
 .aligned-text_right {
   display: block;
-    text-align: right;
+  text-align: right;
 }
-
 
 .lots {
   padding: 180px 50px;
@@ -272,11 +270,13 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: start;
-  padding: 0 90px 50px;
+
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 90px;
 }
 
 .footer__address {
-  padding-right: 15.5%;
   text-underline-offset: 5px;
 }
 
@@ -318,6 +318,7 @@
   gap: 20px 48px;
   list-style: none;
 }
+
 
 
 
