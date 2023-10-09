@@ -139,27 +139,19 @@
 
 .aligned-text {
   display: block;
-}
-
-.aligned-text_center {
-  display: block;
-}
-
-.aligned-text_right {
-  display: block;
-}
-
-.aligned-text {
   text-align: left;
 }
 
 .aligned-text_center {
+  display: block;
   text-align: center;
 }
 
 .aligned-text_right {
-  text-align: right;
+  display: block;
+    text-align: right;
 }
+
 
 .lots {
   padding: 180px 50px;
